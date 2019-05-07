@@ -12,14 +12,14 @@ GitHubの画面上から実施する方法と、 `git clone` してローカル�
 いずれもMarkdown形式で記載可能です。  
 
 ### 画面上でページを新規作成する
-[Wiki](https://github.com/team-ddd/ddd-book/wiki)のページの右上の `New Page` から新規ページを作成してください。  
+[Wiki](https://github.com/team-ddd/ddd-book/wiki)の右上にある `New Page` から新規ページを作成してください。  
 新規ページを作成したら、[フッター](https://github.com/team-ddd/ddd-book/wiki/_Footer/_edit)と[サイドバー](https://github.com/team-ddd/ddd-book/wiki/_Sidebar/_edit)にも新規ページのリンクを追加してください。  
 
 ### 画面上でページを編集する
 編集したいページの右上の `Edit` から修正してください。  
 
 ### git clone してローカルで新規作成・編集する
-[Wiki](https://github.com/team-ddd/ddd-book/wiki)のページの `Clone this wiki locally` のURLをローカルに `git clone` して編集してください。  
+[Wiki](https://github.com/team-ddd/ddd-book/wiki)の右下にある `Clone this wiki locally` のURLをローカルに `git clone` して編集してください。  
 `$ git clone https://github.com/team-ddd/ddd-book.wiki.git`
 特にブランチ運用のルールは作っていないので、masterブランチに push してOKです。
 
