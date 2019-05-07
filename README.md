@@ -20,7 +20,9 @@ GitHubの画面上から実施する方法と、 `git clone` してローカル�
 
 ### git clone してローカルで新規作成・編集する
 [Wiki](https://github.com/team-ddd/ddd-book/wiki)の右下にある `Clone this wiki locally` のURLをローカルに `git clone` して編集してください。  
-`$ git clone https://github.com/team-ddd/ddd-book.wiki.git`
+```
+$ git clone https://github.com/team-ddd/ddd-book.wiki.git
+```  
 特にブランチ運用のルールは作っていないので、masterブランチに push してOKです。
 
 新規ページを作成した場合は、 `_Footer.md` と `_Sidebar.md` にも新規ページのリンクを追加してください。  
